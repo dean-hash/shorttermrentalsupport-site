@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://shorttermrentalsupport.com/sitemap.xml
