@@ -2,7 +2,7 @@ export default function ContactBlock({ phone, email }) {
   const telHref = "tel:" + phone.replace(/\D/g, "");
 
   return (
-    <section className="text-cream">
+    <section id="contact" className="text-cream">
       <h2 className="text-xl font-bold mb-4">Get Help / Get Coverage</h2>
 
       <div className="flex flex-col gap-4 text-sm leading-snug">
