@@ -1,6 +1,6 @@
 import { useId, useState } from "react";
 
-export default function ContactBlock({ phone, email }) {
+export default function ContactBlock({ phone, email, address, hicNumber }) {
   const telHref = "tel:" + phone.replace(/\D/g, "");
   const formId = useId();
 
@@ -111,7 +111,7 @@ export default function ContactBlock({ phone, email }) {
 
   return (
     <section id="contact" className="text-cream">
-      <h2 className="text-xl font-bold mb-4">Get Help / Get Coverage</h2>
+      <h2 className="text-xl font-bold mb-4">Request a Free 10-Min Call</h2>
 
       <div className="flex flex-col gap-4 text-sm leading-snug">
         <div>
@@ -126,6 +126,12 @@ export default function ContactBlock({ phone, email }) {
           </div>
           <div className="text-cream/80 break-all">
             Email {email}
+          </div>
+          <div className="text-cream/80">
+            Lives and works locally in Atlantic City: {address}
+          </div>
+          <div className="text-cream/80">
+            NJ HIC #{hicNumber}
           </div>
         </div>
 
@@ -208,7 +214,7 @@ export default function ContactBlock({ phone, email }) {
             className="bg-safetyOrange text-tealDark font-semibold text-sm px-4 py-2 rounded shadow-sm hover:opacity-90 transition w-max disabled:opacity-60 disabled:cursor-not-allowed"
             disabled={isSubmitting}
           >
-            {isSubmitting ? "Sending..." : "Request Free Readiness Check"}
+            {isSubmitting ? "Sending..." : "Request a Free 10-Min Call"}
           </button>
 
           <p className="text-[11px] text-cream/60 leading-snug">

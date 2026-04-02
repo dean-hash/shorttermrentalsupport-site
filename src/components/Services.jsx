@@ -8,34 +8,39 @@ export default function Services() {
 
       <div className="grid sm:grid-cols-2 gap-4">
         <div className={cardBase}>
-          <h3 className="font-semibold text-cream">Turnover & Cleaner Coordination</h3>
+          <h3 className="font-semibold text-cream">Local Contact, Compliance &amp; Readiness</h3>
           <p className="text-sm text-cream/80 leading-snug">
-            We verify guest-ready quality and keep cleaners honest.
-            Fast response within ~2 miles of Atlantic City / Ventnor.
+            On-call local coverage for Atlantic City STR owners who need a real
+            person to respond to complaints, access issues, urgent property
+            situations, pre-inspection walkthroughs, safety-item checks, and
+            local-contact planning before a city or guest problem happens.
           </p>
         </div>
 
         <div className={cardBase}>
-          <h3 className="font-semibold text-cream">Emergency Minor Repairs</h3>
+          <h3 className="font-semibold text-cream">Repairs, Handyman &amp; Systems Work</h3>
           <p className="text-sm text-cream/80 leading-snug">
-            Locks, leaks, AC hiccups, broken hinges, TV mounts — handled fast.
-            You don’t lose a night over something dumb.
+            Locks, leaks, heaters, HVAC issues, electrical, plumbing, drywall,
+            tile, flooring, fixture swaps, cameras, and the everyday property
+            problems owners need handled quickly.
           </p>
         </div>
 
         <div className={cardBase}>
-          <h3 className="font-semibold text-cream">SCO / Compliance Readiness</h3>
+          <h3 className="font-semibold text-cream">Security Camera Install &amp; Setup</h3>
           <p className="text-sm text-cream/80 leading-snug">
-            Local contact, access, safety basics, Seasonal C.O. prep so you stay
-            out of trouble.
+            Exterior camera installation, positioning, troubleshooting, and
+            readiness work to help owners meet Atlantic City recording and
+            notice requirements.
           </p>
         </div>
 
         <div className={cardBase}>
-          <h3 className="font-semibold text-cream">Guest-Ready Audit</h3>
+          <h3 className="font-semibold text-cream">Cleaning, Turnover &amp; Guest-Ready Support</h3>
           <p className="text-sm text-cream/80 leading-snug">
-            We walk the unit before check-in and catch problems before reviews
-            do. Less drama in public reviews.
+            Turnover cleaning availability through trusted local help, plus
+            cleaner coordination, unit checks, and guest-ready oversight during
+            busy booking periods.
           </p>
         </div>
       </div>
