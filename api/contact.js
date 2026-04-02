@@ -1,4 +1,4 @@
-const TO_EMAIL = process.env.CONTACT_TO_EMAIL || "hello@shorttermrentalsupport.com";
+const TO_EMAIL = process.env.CONTACT_TO_EMAIL || "pierre@shorttermrentalsupport.com";
 const FROM_EMAIL = process.env.RESEND_FROM_EMAIL || "onboarding@resend.dev";
 
 function isValidEmail(value) {
